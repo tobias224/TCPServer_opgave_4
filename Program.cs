@@ -7,6 +7,7 @@ Console.WriteLine("TCP Server:");
 
 TcpListener listener = new TcpListener(IPAddress.Any, 7);
 listener.Start();
+Console.WriteLine("Server started...");
 
 while (true)
 {
